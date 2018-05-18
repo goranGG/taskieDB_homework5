@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="@dimen/screen_margin">
+
+    <TextView
+        android:id="@+id/textview_category_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="@dimen/category_name"
+        android:text="@string/lorem_ipsum_title" />
+
+    <ImageView
+        android:id="@+id/imageview_category_selected"
+        android:layout_alignParentEnd="true"
+        android:layout_width="wrap_content"
+        android:layout_height="@dimen/imageview_check_height"
+       android:visibility="gone"/>
+</RelativeLayout>

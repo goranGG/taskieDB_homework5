@@ -1,0 +1,12 @@
+<resources>
+    <dimen name="screen_margin">16dp</dimen>
+    <dimen name="margin_between_elements">8dp</dimen>
+    <dimen name="category_on_task">2dp</dimen>
+    <dimen name="text_minimum">12sp</dimen>
+    <dimen name="priority_image_width">60dp</dimen>
+    <dimen name="priority_image_height">60dp</dimen>
+    <dimen name="task_title_size">24sp</dimen>
+    <dimen name="switch_size">60dp</dimen>
+    <dimen name="category_name">24sp</dimen>
+    <dimen name="imageview_check_height">30dp</dimen>
+</resources>

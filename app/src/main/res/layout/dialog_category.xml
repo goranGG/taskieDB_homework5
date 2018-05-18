@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <EditText
+        android:id="@+id/edittext_category_dialog_name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="@dimen/screen_margin"
+        android:layout_marginStart="@dimen/screen_margin"
+        android:gravity="center"
+        android:hint="@string/category_name" />
+
+    <RadioGroup
+        android:id="@+id/radiogroup_category_dialog_color"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_gravity="center">
+
+        <RadioButton
+            android:id="@+id/radiobutton_red"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/color_red_text"
+            android:textColor="@color/colorCategoryRed" />
+
+        <RadioButton
+            android:id="@+id/radiobutton_green"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/color_green_text"
+            android:textColor="@color/colorCategoryGreen" />
+
+        <RadioButton
+            android:id="@+id/radiobutton_blue"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/color_blue_text"
+            android:textColor="@color/colorCategoryBlue" />
+
+    </RadioGroup>
+
+
+</LinearLayout>

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#D32F2F</color>
+    <color name="colorPrimaryDark">#D50000</color>
+    <color name="colorAccent">#D50000</color>
+    <color name="colorTaskDate">#FFF</color>
+
+    <color name="colorCategoryRed">#b71c1c</color>
+    <color name="colorCategoryGreen">#33691E</color>
+    <color name="colorCategoryBlue">#01579B</color>
+    <color name="colorCategoryPurple">#4A148C</color>
+    <color name="colorCategoryOrange">#E65100</color>
+    <color name="colorCategoryBlack">#000000</color>
+</resources>
